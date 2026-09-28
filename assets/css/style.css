@@ -5,7 +5,7 @@ body{
 
 body::before{
     content: "";
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQadOYJsrxCOb4JsdsTpZOP26vGZkN5BRVure759Vmcw&s=10");
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQadOYJsrxCOb4JsdsTpZOP26vGZkN5BRVure759Vmcw&s=10");
     position: absolute;
     top: 0;
     left: 0;
@@ -16,4 +16,16 @@ body::before{
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+
+.spinner{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.6);
 }
